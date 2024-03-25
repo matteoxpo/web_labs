@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вторая лабораторная работа</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Простой слайдер</h1>
+
+        <div class="slider">
+            <div class="slider-line">
+                <img src="./images/slide1.jpg" alt="cat1">
+                <img src="./images/slide2.jpg" alt="cat2">
+                <img src="./images/slide3.jpg" alt="cat3">
+                <img src="./images/slide4.jpg" alt="cat3">
+            </div>
+        </div>
+        <div>
+            <button class="slider-prev">Prev</button>
+            <button class="slider-next">Next</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Калькулятор вкладов</h1>
+        <form id="calculator-form">
+            <div class="form-group">
+                <label for="deposit-type">Вид вклада:</label>
+                <select id="deposit-type" name="deposit-type">
+                    <option value="popolnyaemy">Пополняемый</option>
+                    <option value="srochnyy">Срочный</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="investment-period">Срок вклада:</label>
+                <select id="investment-period" name="investment-period">
+                    <!-- Сроки для пополняемого вклада -->
+                    <option value="6 месяцев">6 месяцев</option>
+                    <option value="1 год">1 год</option>
+                    <option value="1,5 года">1,5 года</option>
+                    <option value="2 года">2 года</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="initial-amount">Начальная сумма (руб.):</label>
+                <input type="number" id="initial-amount" name="initial-amount" required>
+            </div>
+            <button type="submit">Рассчитать</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

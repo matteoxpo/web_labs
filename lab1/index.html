@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Титульный лист</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container" id="task3">
+        <div class="container">
+            <h1 class="center">Новосибирский Государственный Технический Университет</h1>
+            <h2 class="center">Кафедра: АСУ</h2>
+            <br/>
+            <br/>
+            <br/>
+            <div class="logo-container">
+                <img src="nstu_logo.png" alt="Логотип НГТУ" class="logo">
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <div class="content">
+                <h3 class="center">Название лабораторной работы:</h3>
+                <p class="center">Принципы работы веб-приложений</p>
+                <div class="two-columns">
+                    <div>
+                        <div class="h3-two-columns">Выполнили:</div>
+                        <ul>
+                            <li>Хромин С.К.</li>
+                            <li>Кашаев А.М.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="h3-two-columns">Преподаватель:</div>
+                        <p>Хворостов В.А.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-break"></div>
+    <div class="container">
+        <h2 class="center">Содержание</h3>
+        <ul>
+            <li>
+                <a href="#task1" class="content-link">Задание 1</a>
+                <br>
+                Работа whois и dns.
+                <br>
+                <br>
+                <ol>
+                    <li>
+                        На сайте nic.ru воспользоваться сервисом whois – узнать информацию о доменах <a href="#yandex">yandex.ru</a>, <a href="#google">google.com</a>, <a href="#ngs">ngs.ru</a>.
+                    </li>
+                    <li>
+                        Ввести в командной строке windows команду
+                        <br>
+                        nslookup yandex.ru
+                        <br>
+                        повторить ее для доменов google.com и ngs.ru
+                    </li>
+                    <li>
+                        Найти в интернете описание работы DNS, узнать что такое: ns-сервер, делегирование домена, A-запись, MX-запись.
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="#task2" class="content-link">Задание 2</a>
+                <br>
+                Инструменты разработчика Chrome (вкладка Network).
+                <br>
+                <br>
+                Открыть браузер Chrome, нажать F12, перейти в открывшемся окне с инструментами разработчика на вкладку network, и зайти на любой интернет-сайт, например ngs.ru. Посмотреть список запросов и в нескольких запросах подробную информацию о заголовках http-запроса и ответа сервера, содержимое ответов.
+            </li>
+            <li>
+                <a href="#task3" class="content-link">Задание 3</a>
+                <br>
+                Оформить отчет по лабораторной работе в формате html. Требования к отчету:
+                <br>
+                <br>
+                <ol>
+                    <li>
+                        На заглавной странице: логотип НГТУ, полное название университета, кафедры, название лабораторной работы, ФИО выполнивших и преподавателя, содержание в виде ссылок на другие страницы.
+                    </li>
+                    <li>
+                        Отдельными страницами результаты выполнения заданий 1.1, 1.2, 1.3.
+                    </li>
+                    <li>
+                        На отдельной странице результаты выполнения задания 2: скриншот списка запросов к серверу, содержимое нескольких запросов, заголовки и содержимое ответов на эти запросы (также скриншотами).
+                        Отчет заархивировать и прислать через dispace или на email преподавателю.
+                    </li>
+                </ol>
+
+            </li>
+        </ul>
+    </div>
+    <div class="page-break"></div> 
+    <div class="container" id="task1">
+        <h2 id="yandex">Задание 1</h2>
+        <p style="font-size: larger; font-weight: bold;"> Whois с сайта <a href="https://www.nic.ru/whois/" target="_blank">nic.ru</a></p>
+        <div class="square-nicru">
+            <div style="font-weight: bold; font-size: large;">Информация по данным whois.nic.ru про yandex.ru</div><br>
+            <div>domain:</div>
+            YANDEX.RU<br>
+            <div>nserver:</div>
+            ns1.yandex.ru 213.180.193.1, 2a02:6b8::1<br>
+            <div>nserver:</div>
+            ns2.yandex.ru 93.158.134.1, 2a02:6b8:0:1::1<br>
+            <div>state:</div>
+            REGISTERED, DELEGATED<br>
+            <div>admin-contact:</div>
+            <a href="https://www.nic.ru/whois/send-message/?domain=yandex.ru" target="_blank">https://www.nic.ru/whois/send-message/?domain=yandex.ru</a>
+            <div>org:</div>
+            YANDEX, LLC.<br>
+            <div>registrar:</div>
+            RU-CENTER-RU<br>
+            <div>created:</div>
+            1997.09.23<br>
+            <div>paid-till:</div>
+            2024.10.01<br>
+            <div>source:</div>
+            RU-CENTER<br>
+            Last update of WHOIS database: 2024.02.27T05:56:56Z
+        </div>
+    </div>
+    <div class="page-break"></div>
+    <div class="container" id="google">
+        <div class="square-nicru">
+            <div style="font-size: large;">Информация по данным whois.verisign-grs.com про google.com</div><br>
+            <div>Domain Name:</div>
+            GOOGLE.COM<br>
+            <div>Registry Domain ID:</div>
+            2138514_DOMAIN_COM-VRSN<br>
+            <div>Registrar WHOIS Server:</div>
+            whois.markmonitor.com<br>
+            <div>Registrar URL:</div>
+            http://www.markmonitor.com<br>
+            <div>Updated Date:</div>
+            2019-09-09T15:39:04Z<br>
+            <div>Creation Date:</div>
+            1997-09-15T04:00:00Z<br>
+            <div>Registry Expiry Date:</div>
+            2028-09-14T04:00:00Z<br>
+            <div>Registrar:</div>
+            MarkMonitor Inc.<br>
+            <div>Registrar IANA ID:</div>
+            292<br>
+            <div>Registrar Abuse Contact Email:</div>
+            abusecomplaints@markmonitor.com<br>
+            <div>Registrar Abuse Contact Phone:</div>
+            +1.2086851750<br>
+            <div>Domain Status:</div>
+            clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited<br>
+            <div>Name Server:</div>
+            NS1.GOOGLE.COM<br>
+            <div>Name Server:</div>
+            NS2.GOOGLE.COM<br>
+            <div>Name Server:</div>
+            NS3.GOOGLE.COM<br>
+            <div>Name Server:</div>
+            NS4.GOOGLE.COM<br>
+            <div>DNSSEC:</div>
+            unsigned<br>
+            <div>URL of the ICANN Whois Inaccuracy Complaint Form:</div>
+            <a href="https://www.icann.org/wicf/" target="_blank">https://www.icann.org/wicf/</a><br>
+            Last update of whois database:
+            2024-02-27T03:07:02Z<br>
+            <div>For more information on Whois status codes, please visit:</div>
+            https://icann.org/epp<br>
+            <div>NOTICE:</div>
+            The expiration date displayed in this record is the date the
+            registrar's sponsorship of the domain name registration in the registry is
+            currently set to expire. This date does not necessarily reflect the expiration
+            date of the domain name registrant's agreement with the sponsoring
+            registrar. Users may consult the sponsoring registrar's Whois database to
+            view the registrar's reported date of expiration for this registration.<br>
+            <br>
+            <div>The Registry database contains ONLY .COM, .NET, .EDU domains and Registrars.</div>
+        </div>
+    </div>
+    <div class="page-break"></div>
+    <div class="container" id="ngs">
+        <div class="square-nicru">
+            <div style="font-weight: bold; font-size: large;">Информация по данным whois.nic.ru</div><br>
+            <div>domain:</div>
+            NGS.RU<br>
+            <div>nserver:</div>
+            ns1.ngs.ru 195.19.220.238<br>
+            <div>nserver:</div>
+            ns.hsdrn.ru<br>
+            <div>state:</div>
+            REGISTERED, DELEGATED<br>
+            <div>admin-contact:</div>
+            <a href="https://www.nic.ru/whois/send-message/?domain=ngs.ru" target="_blank">https://www.nic.ru/whois/send-message/?domain=ngs.ru</a><br>
+            <div>org:</div>
+            INTERNET TEHNOLOGII LLC<br>
+            <div>registrar:</div>
+            RU-CENTER-RU<br>
+            <div>created:</div>
+            1999.11.05<br>
+            <div>paid-till:</div>
+            2024.12.01<br>
+            <div>source:</div>
+            RU-CENTER<br>
+            Last update of WHOIS database: 2024.02.27T06:13:48Z
+        </div>
+    </div>
+    <div class="page-break"></div>
+    <div class="container">
+        <p style="font-size: larger; font-weight: bold;"> nslookup из командной строки windows</p>
+        <p>yandex.ru</p>
+        <div class="square-cmd">
+            ╤хЁтхЁ:  first.nstu.ru<br>
+            Address:  217.71.131.17<br>
+            <br>
+            Не заслуживающий доверия ответ:<br>
+            ╚ь :     yandex.ru<br>
+            Addresses:  2a02:6b8:a::a<br>
+                    77.88.55.88<br>
+                    5.255.255.70<br>
+                    5.255.255.77<br>
+                    77.88.55.60<br>
+        </div>
+        <p>google.com</p>
+        <div class="square-cmd">
+            ╤хЁтхЁ:  first.nstu.ru<br>
+            Address:  217.71.131.17<br>
+            <br>
+            Не заслуживающий доверия ответ:<br>
+            ╚ь :     google.com<br>
+            Addresses:  2a00:1450:4010:c0d::71<br>
+            2a00:1450:4010:c0d::8a<br>
+            2a00:1450:4010:c0d::8b<br>
+            2a00:1450:4010:c0d::64<br>
+            173.194.73.113<br>
+            173.194.73.138<br>
+            173.194.73.139<br>
+            173.194.73.100<br>
+            173.194.73.102<br>
+            173.194.73.101<br>
+        </div>
+        <p>ngs.ru</p>
+        <div class="square-cmd">
+            ╤хЁтхЁ:  first.nstu.ru<br>
+            Address:  217.71.131.17<br>
+            <br>
+            Не заслуживающий доверия ответ:<br>
+            ╚ь :     ngs.ru<br>
+            Address:  195.19.220.25<br>
+        </div>
+    </div>
+    <div class="page-break"></div>
+    <div class="container">
+        <p style="font-size: larger;">
+            Найти в интернете описание работы DNS, узнать что такое: ns-сервер, делегирование домена, A-запись, MX-запись.
+        </p>
+        <div>
+            <ol>
+                <li>
+                    DNS (Domain Name System): DNS (система доменных имен) — это распределенная база данных, используемая для преобразования доменных имен в IP-адреса и наоборот. Она служит основной инфраструктурой для интернета, позволяя пользователям использовать понятные для них доменные имена вместо IP-адресов при доступе к ресурсам в сети.
+                </li>
+                <li>
+                    NS-сервер (Name Server): NS-сервер (сервер имен) — это специализированный сервер, который содержит информацию о доменных именах и их соответствующих IP-адресах. NS-серверы играют ключевую роль в процессе разрешения доменных имен, предоставляя клиентам (как браузерам) соответствующие IP-адреса запрошенных доменных имен.
+                </li>
+                <li>
+                    Делегирование домена: Делегирование домена — это процесс передачи контроля над частью доменного пространства от одного доменного регистратора другому. Это позволяет управлять поддоменами и дополнительными службами независимо от основного домена. Делегирование обычно происходит путем настройки NS-записей в реестре доменных имен.
+                </li>
+                <li>
+                    A-запись: A-запись (Address Record) — это тип ресурсной записи DNS, который связывает доменное имя с IPv4-адресом. Эта запись используется для преобразования доменного имени в соответствующий IP-адрес, который позволяет клиентам находить серверы в сети Интернет по их доменным именам.
+                </li>
+                <li>
+                    MX-запись: MX-запись (Mail Exchange Record) — это тип ресурсной записи DNS, который определяет почтовый сервер, который отвечает за прием электронной почты для определенного домена. Эта запись используется для указания маршрутизации электронной почты и определения сервера, который должен обрабатывать входящие письма для домена.
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="page-break"></div>
+    <div class="container" id="task2">
+        <h2> Задание 2</h2>
+        <p>Был выбран сайт <a href="https://www.youtube.com/" target="_blank">https://www.youtube.com/</a></p>
+        <p>Список запросов</p>
+        <img src="task2_list_of_requests.png" alt="Список запросов на сервер с ресусра youtube">
+    </div>
+    <div class="page-break"></div>
+    <div class="container" >
+        <p style="font-weight: bold;">Разбор запроса: </p>
+        <p>AIdro_m1bsspLMHTedy6rlxE-pLq0kn2WJQu9LF82GyKeg=s68-c-k-c0x00ffffff-no-rj</p>
+        <p>Запрос на сервер</p>
+        <img style="width: 200mm; height: auto; margin-left: -50px;" src="task2_1_request.png" alt="Запрос на сервер youtube">
+        <p>Ответ с сервера на запрос</p>
+        <img style="width: 200mm; height: auto; margin-left: -50px;" src="task2_1_response.png" alt="Запрос на сервер youtube">
+    </div>
+    <div class="page-break"></div>
+    <div class="container" >
+        <p style="font-weight: bold;">Разбор запроса: </p>
+        <p>hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgETK-DU54MYph3LB24dqMXnFTNw</p>
+        <p>Запрос на сервер</p>
+        <img style="width: 200mm; height: auto; margin-left: -50px;" src="task2_2_request.png" alt="Запрос на сервер youtube">
+        <p>Ответ с сервера на запрос</p>
+        <img style="width: 200mm; height: auto; margin-left: -50px;" src="task2_2_response.png" alt="Запрос на сервер youtube">
+    </div>
+    <div class="page-break"></div>
+
+    <div class="container" >
+    <h2>Литературный список</h2>
+    <ol>
+        <li>
+            "DNS and BIND" by Cricket Liu, Paul Albitz
+        </li>
+        <li>
+            "TCP/IP Illustrated, Volume 1: The Protocols" by W. Richard Stevens
+        </li>
+        <li>
+            "DNS and BIND Cookbook" by Cricket Liu, Cricket Liu
+        </li>
+        <li>
+            "DNS Security: Defending the Domain Name System" by Allan Liska, Geoffrey Stowe
+        </li>
+        <li>
+            "DNS on Windows Server 2003" by Matt Larson, Cricket Liu
+        </li>
+        <li>
+            "Pro DNS and BIND" by Ron Aitchison
+        </li>
+        <li>
+            Официальная документация RFC (Request for Comments) - включая RFC 1034 и RFC 1035
+        </li>
+    </ol>
+    </div>
+    <div class="page-break"></div>
+</body>
+</html>
+
