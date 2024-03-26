@@ -22,6 +22,7 @@ h1 {
 
 button {
     background: none;
+    position: relative;
     border: 1px solid black;
     border-radius: 4px;
     padding: 10px 20px;
@@ -29,14 +30,14 @@ button {
 }
 
 button:hover {
-    background: rgb(255, 0, 0);
-    color: #f1f1f1;
+    background: rgb(0, 255, 98);
+    color: #014e2a;
 }
 
 
 button:active {
-    background: #000;
-    color: #46f302;
+    background: #09180b;
+    color: #b5f39d;
 }
 
 .slider {
@@ -53,5 +54,5 @@ button:active {
     display: flex;
     position: relative;
     left: 0;
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
