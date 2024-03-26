@@ -50,34 +50,33 @@ document.getElementById('calculator-form').addEventListener('submit', function(e
 
     let interestRate;
 
-    // Определение процентной ставки в зависимости от выбранного вида вклада и срока
     if (depositType === 'popolnyaemy') {
         switch (investmentPeriod) {
             case '6 месяцев':
-                interestRate = 20;
+                interestRate = 20 * 0.5;
                 break;
             case '1 год':
                 interestRate = 22;
                 break;
             case '1,5 года':
-                interestRate = 15;
+                interestRate = 15 * 1.5;
                 break;
             case '2 года':
-                interestRate = 10;
+                interestRate = 10 * 2;
                 break;
         }
     } else if (depositType === 'srochnyy') {
         switch (investmentPeriod) {
             case '3 месяца':
-                interestRate = 20;
+                interestRate = 20 * 0.25;
                 break;
             case '6 месяцев':
-                interestRate = 22;
+                interestRate = 22 * 0.5;
                 break;
         }
     }
 
-    const totalAmount = initialAmount * (1 + interestRate / 100);
+    const totalAmount = initialAmount + initialAmount * interestRate / 100;
 
     document.getElementById('result').innerHTML = `
         <p>Через ${investmentPeriod} ваш вклад вырастет до ${totalAmount.toFixed(2)} рублей.</p>
