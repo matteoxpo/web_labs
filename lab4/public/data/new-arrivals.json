@@ -1,50 +1,47 @@
 {
   "books": [
     {
-      "title": "The Memory Police",
-      "author": "Yoko Ogawa",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544335119l/37004370.jpg",
-      "price": 14.72,
-      "currency": "$",
-      "category": "Science Fiction > Dystopian",
+      "title": "Напиток ДОБРЫЙ Кола сильногазированный, 1.5л, Россия, 1.5 L",
+      "author": "ДОБРЫЙ",
+      "image": "https://lenta.servicecdn.ru/globalassets/1/-/65/99/02/acdd40c0-121f-5b92-a8e1-099d54322a7a_1.png",
+      "price": 119.0,
+      "currency": "₽",
+      "category": "Лимонады",
       "isbn13": 9781101911815,
-      "description": "On an unnamed island, objects are disappearing: first hats, then ribbons, birds, roses..."
+      "description": "Новый сильногазированный напиток ДОБРЫЙ Кола ‒ это яркий и освежающий заряд хорошего настроения, которым так хочется делиться с тем, кто рядом! Пейте охлажденным!"
     },
 
     {
-      "title": "Rhinoceros and Other Plays",
-      "author": "Eugène Ionesco",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347454436l/323823.jpg",
-      "price": 16.00,
-      "currency": "$",
-      "category": "Plays > Theatre",
-      "publisher": "Grove Press",
-      "isbn13": 9780802130983,
-      "description": "A rhinoceros suddenly appears in a small town, tramping through its peaceful streets."
+      "title": "«Калинов» Крем-Сода, 1,5 л",
+      "author": "Калиновъ",
+      "image": "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/27010408",
+      "price": 59.90,
+      "currency": "₽",
+      "category": "Сладкие газированные напитки",
+      "isbn13": 9781101911815,
+      "description": "Классические лимонады на основе воды «Калинов Родник» производятся из высококачественного вкусо-ароматического сырья и обладают ярко выраженными прохладительными свойствами."
     },
 
     {
-      "title": "Memento Mori",
-      "author": "Muriel Spark",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348186701l/120158.jpg",
-      "price": 15.90,
-      "currency": "$",
-      "category": "Novels",
+      "title": "«Черноголовка» Дюшес, 1,5 л",
+      "author": "«Черноголовка»",
+      "image": "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/31397780",
+      "price": 89.90,
+      "currency": "₽",
+      "category": "Сладкие газированные напитки",
       "isbn13": 9780811223041,
-      "publisher": "New Directions Publishing Corporation",
-      "description": "In late 1950s London, something uncanny besets a group of elderly friends."
+      "description": "Рецепт лимонада «Дюшес»: артезианская вода, натуральный сироп-настой южной груши сорта «Дюшес», сахарный сироп, лимонная кислота."
     },
 
     {
-      "title": "Atlas of AI",
-      "author": "Kate Crawford",
-      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603542518l/50131136._SX318_.jpg",
+      "title": "«Маша и Медведь» Вишневый, 0,75л",
+      "author": "Маша и Медведь",
+      "image": "https://www.auchan.ru/f/c/insecure/w:520/plain/https://www.auchan.ru/files/original/28748984",
       "price": 25.76,
-      "currency": "$",
-      "category": "Nonfiction > Technology",
-      "publisher": "Yale University Press",
+      "currency": "₽",
+      "category": "Напиток газированный детский",
       "isbn13": 9780300209570,
-      "description": "The hidden costs of artificial intelligence--from natural resources and labor to privacy, equality, and freedom"
+      "description": "Детское шампанское «Маша и Медведь» со вкусом вишни не оставит равнодушными веселую детскую компанию и их родителей."
     }
   ]
 }

@@ -1,5 +1,5 @@
 <div class="container new-arrivals-panel">
-  <h1>New Arrivals</h1>
+  <h1>Новинки!</h1>
 
   <div class="row mb-2 new-arrival">
     <div class="col-md-6" v-for="bookDetail in newArrivals">
@@ -12,8 +12,9 @@
 
           <div class="input-group">
             <span class="price"><input type="text"
-                   :style="{ '--currency': bookDetail.currency }"
                    :value="bookDetail.price"
+                   :style="{ '--currency': bookDetail.currency }"
+
                    class="form-control"  readonly aria-label=""></span>
             <button @click="addToCart(bookDetail)" class="btn btn-outline-secondary add-to-cart" type="button"><img src="/images-cloud/basket_icon.svg" alt="Добавить в корзину"></button>
           </div>

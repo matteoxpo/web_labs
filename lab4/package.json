@@ -1,7 +1,7 @@
 {
-  "name": "middlemarch",
+  "name": "gazirowka",
   "version": "0.0.0",
-  "author": "George Eliot",
+  "author": "Kashaev&Hromin",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
