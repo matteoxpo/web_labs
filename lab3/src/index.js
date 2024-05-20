@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 import "./style.css"
 document.addEventListener('DOMContentLoaded', function () {
     let offset = 0;
@@ -84,12 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <p>Через ${investmentPeriod} ваш вклад вырастет до ${totalAmount.toFixed(2)} рублей.</p>
     `;
     });
-});
-
-const axios = require('axios');
-
-// Функция для выполнения запроса к API hh.ru и вывода результатов
-const searchBtn = document.getElementById('search-btn');
+    const searchBtn = document.getElementById('search-btn');
     const keywordInput = document.getElementById('keyword');
     const vacancyList = document.getElementById('vacancy-list');
 
@@ -128,3 +125,7 @@ const searchBtn = document.getElementById('search-btn');
             vacancyList.appendChild(listItem);
         });
     }
+
+});
+
+
