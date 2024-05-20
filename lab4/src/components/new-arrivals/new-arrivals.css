@@ -14,7 +14,7 @@
   border-color: rgba(255,255,255,.3)!important;
 }
 .new-arrival .book-thumbnail {
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255);
   padding: 10px;
 }
 .new-arrival .book-thumbnail img {
@@ -34,7 +34,7 @@
   color: #ccc !important;
 }
 .new-arrival .input-group .price:before {
-  content: '$';
+  content: '₽';
   z-index: 1;
   display: inline-block;
   color: #ccc;
